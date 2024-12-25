@@ -1,0 +1,36 @@
+# Consigna para el Segundo Trabajo Práctico - JavaScript
+
+## Propósito del Trabajo Práctico
+
+Crear un sitio web que incluya varias páginas, partiendo de un proyecto template que será proporcionado. Será necesario agregar contenido y funcionalidades siguiendo buenas prácticas de desarrollo web, haciendo uso de la API de información de Harry Potter.
+
+---
+
+## Instrucciones a Seguir
+
+1. **Diseñar un sitio web con múltiples páginas:**
+   Se debe desarrollar un sitio web que tenga al menos dos secciones:
+
+   - Una página principal (`index.html`).
+   - Una página dedicada a los personajes (`personajes.html`).
+
+2. **Base del Proyecto:**
+   El proyecto ya cuenta con una estructura inicial.  
+   Este repositorio contiene un template donde ya están definidos el `header` y el `footer`.
+
+3. **Desarrollo:**
+
+   ### a. Página Principal (`index.html`)
+
+   - En el archivo `index.html` se debe incluir un elemento `<main>` que contenga una descripción sobre la API de Harry Potter.
+   - La información que se muestre en esta sección es libre, pero debe ser lo más completa posible. Pueden incluirse datos sobre personajes, casas, hechizos, entre otros. Lo esencial es que el contenido sea relevante y esté bien organizado.
+
+   ### b. Página de Personajes (`personajes.html`)
+
+   - Se debe desarrollar una segunda página llamada `personajes.html`.
+   - Al acceder a esta página, debe aparecer una lista de personajes obtenida desde la API de Harry Potter.
+   - Las tareas para esta sección son las siguientes:
+     1. Realizar una consulta a la API para obtener los datos de los personajes.
+     2. Organizar la información obtenida en un diseño de grilla (grid).
+     3. Garantizar que el diseño de la grilla sea adaptable a distintos dispositivos, como celulares y tablets.
+     4. Diseñar las tarjetas (cards) de la grilla según el estilo visual que prefieran.
