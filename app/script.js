@@ -5,7 +5,12 @@ const apiUrl = "https://hp-api.onrender.com/api/characters";
 fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
-    console.log("characters fetched:", data);
+    const container = document.querySelector("#characters-container");
+
+    // Loop through all characters
+    data.forEach((character) => {
+      console.log("Character Name:", character.name); // Log each name to confirm it's working
+    });
   })
   .catch((error) => {
     console.error("Error fetching data:", error);
