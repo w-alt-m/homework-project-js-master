@@ -28,7 +28,7 @@ Crear un sitio web que incluya varias páginas, partiendo de un proyecto templat
    ### b. Página de Personajes (`personajes.html`)
 
    - Se debe desarrollar una segunda página llamada `personajes.html`.
-   - Al acceder a esta página, debe aparecer una lista de personajes obtenida desde la API de Harry Potter.
+   - Al acceder a esta página, debe aparecer una lista de personajes obtenida desde la API de Harry Potter. (https://hp-api.onrender.com/)
    - Las tareas para esta sección son las siguientes:
      1. Realizar una consulta a la API para obtener los datos de los personajes.
      2. Organizar la información obtenida en un diseño de grilla (grid).
