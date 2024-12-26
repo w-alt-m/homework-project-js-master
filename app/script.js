@@ -10,7 +10,9 @@ fetch(apiUrl)
     data.forEach((character) => {
       $container.innerHTML += `
       <div class="character-card">
-      <img src="${character.image}" alt="Image of ${character.name}">
+      <img src="${
+        character.image || "https://potterdb.com/images/missing_character.svg"
+      }" alt="Image of ${character.name}">
       <h3>${character.name}</h3>
       <p><b>House:</b> ${character.house || "Unknown"}</p>
       </div> 
