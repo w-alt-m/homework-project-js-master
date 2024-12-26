@@ -3,6 +3,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/912/238/496/architecture-artistic-buildings-castle-wallpaper-8960085d51ba8d9b0607f89f30d1d65d.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
 }
 
 header {
